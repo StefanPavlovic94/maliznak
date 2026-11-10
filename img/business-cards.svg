@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 860" role="img" aria-labelledby="title desc">
+  <title id="title">Vizit karta sa utisnutim monogramom</title>
+  <desc id="desc">Ilustracija elegantnih vizit karti na zelenoj podlozi u tonovima slonovače i duboke zelene.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#5e6b56"/><stop offset="1" stop-color="#39463b"/></linearGradient>
+    <linearGradient id="light" x2="1" y2="1"><stop stop-color="#fffdf6"/><stop offset="1" stop-color="#e9e1d3"/></linearGradient>
+    <linearGradient id="dark" x2=".9" y2="1"><stop stop-color="#303e35"/><stop offset="1" stop-color="#1f2c26"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="19" stdDeviation="17" flood-color="#101811" flood-opacity=".3"/></filter>
+  </defs>
+  <rect width="800" height="860" fill="url(#bg)"/>
+  <path d="M0 690c202-141 433 8 800-146v316H0z" fill="#29362d" opacity=".2"/>
+  <g filter="url(#shadow)" transform="rotate(-12 376 462)">
+    <rect x="132" y="286" width="490" height="322" rx="3" fill="#d9cfbd"/>
+    <rect x="132" y="275" width="490" height="322" rx="3" fill="url(#light)"/>
+    <circle cx="377" cy="403" r="54" fill="none" stroke="#b99969" stroke-width="1"/>
+    <text x="377" y="417" text-anchor="middle" fill="#52634f" font-family="Georgia,serif" font-size="41" font-style="italic">m.</text>
+    <text x="377" y="506" text-anchor="middle" fill="#475548" font-family="Georgia,serif" font-size="18" letter-spacing="2">MALI ZNAK</text>
+    <text x="377" y="534" text-anchor="middle" fill="#8c806f" font-family="Arial,sans-serif" font-size="8" letter-spacing="2">PAPIR • DIZAJN • ŠTAMPA</text>
+  </g>
+  <g filter="url(#shadow)" transform="rotate(10 452 522)">
+    <rect x="300" y="411" width="399" height="259" rx="3" fill="url(#dark)"/>
+    <path d="M324 435h351v211H324z" fill="none" stroke="#a7946c" stroke-width=".8"/>
+    <text x="346" y="488" fill="#e9dfcc" font-family="Georgia,serif" font-size="24">Mali znak</text>
+    <path d="M346 504h75" stroke="#bc9b69" stroke-width="1"/>
+    <text x="346" y="542" fill="#e9dfcc" font-family="Arial,sans-serif" font-size="10">Ideje vredne papira.</text>
+    <text x="346" y="568" fill="#c3b9a7" font-family="Arial,sans-serif" font-size="8" letter-spacing="1">STUDIO ZA ŠTAMPU</text>
+  </g>
+  <circle cx="112" cy="120" r="2" fill="#e1cfaa"/><circle cx="660" cy="194" r="3" fill="#e1cfaa" opacity=".7"/>
+</svg>

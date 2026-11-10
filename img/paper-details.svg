@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" role="img" aria-labelledby="title desc">
+  <title id="title">Detalj papira i štampe</title>
+  <desc id="desc">Originalna apstraktna ilustracija reljefnog papira sa vinskim monogramom i zlatnim linijama.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#e7ddcf"/><stop offset="1" stop-color="#cdbda8"/></linearGradient>
+    <linearGradient id="sheet" x2="1" y2=".8"><stop stop-color="#fffdf7"/><stop offset="1" stop-color="#eae1d4"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="24" stdDeviation="21" flood-color="#3b2d25" flood-opacity=".22"/></filter>
+    <pattern id="texture" width="72" height="72" patternUnits="userSpaceOnUse"><path d="M8 16h1m36 24h1M20 60h1m43-50h1" stroke="#887968" stroke-width="1" opacity=".15"/></pattern>
+  </defs>
+  <rect width="900" height="900" fill="url(#bg)"/>
+  <path d="M0 747c197-65 384-10 900-161v314H0z" fill="#ae9b83" opacity=".25"/>
+  <g filter="url(#shadow)" transform="rotate(-8 450 449)">
+    <rect x="174" y="134" width="543" height="643" fill="url(#sheet)"/>
+    <rect x="174" y="134" width="543" height="643" fill="url(#texture)"/>
+    <path d="M211 170h469v571H211z" fill="none" stroke="#b79b70" stroke-width="1"/>
+    <path d="M255 222c49 42 73 93 66 158m-66-158c-25 50-28 87-10 119m10-119c48-3 84 14 112 52m-77 105c-49 22-70 55-74 102m74-102c40 4 72 24 99 59m-99-59c-8 43-1 75 20 101m-20-101c-37-8-64-4-86 13m86 88c-1 44-21 77-56 101m56-101c44 0 75 17 96 50m-96-50c15 38 38 59 69 70" fill="none" stroke="#66745c" stroke-width="2" stroke-linecap="round"/>
+    <g fill="#7c896f">
+      <path d="M254 262c-30 4-51-5-66-22 24-9 47-2 66 22Zm49 37c-8-28-3-50 13-68 12 23 8 46-13 68Zm-44 66c-29 8-51 2-69-13 22-13 45-11 69 13Zm13 32c-25-10-39-28-43-51 25 7 40 23 43 51Zm37 37c-11 25-29 39-52 42 7-25 23-39 52-42Zm48 8c14-25 34-36 58-38-11 24-29 38-58 38Zm-114-30c-26 14-50 15-72 4 19-18 42-20 72-4Z"/>
+    </g>
+    <circle cx="472" cy="457" r="91" fill="none" stroke="#bf9d6c" stroke-width="1.4"/>
+    <circle cx="472" cy="457" r="78" fill="none" stroke="#bf9d6c" stroke-width=".7"/>
+    <text x="472" y="473" text-anchor="middle" fill="#742f3e" font-family="Georgia,serif" font-size="57" font-style="italic">m.</text>
+    <text x="472" y="602" text-anchor="middle" fill="#742f3e" font-family="Georgia,serif" font-size="26" letter-spacing="4">MALI ZNAK</text>
+    <path d="M396 622h152" stroke="#b79b70" stroke-width="1"/>
+    <text x="472" y="656" text-anchor="middle" fill="#85786a" font-family="Arial,sans-serif" font-size="9" letter-spacing="3">OD IDEJE DO OTISKA</text>
+  </g>
+  <circle cx="744" cy="160" r="3" fill="#aa8a62"/><circle cx="775" cy="186" r="1.8" fill="#aa8a62"/>
+</svg>

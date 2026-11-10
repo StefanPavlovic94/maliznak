@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 820" role="img" aria-labelledby="title desc">
+  <title id="title">Papir i pozivnica</title>
+  <desc id="desc">Originalna ilustracija kompleta elegantnih pozivnica, koverte i cvetnog detalja.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#e8e0d3"/><stop offset="1" stop-color="#d7cbbc"/></linearGradient>
+    <linearGradient id="paper" x2="1" y2="1"><stop stop-color="#fffdf8"/><stop offset="1" stop-color="#eee6d9"/></linearGradient>
+    <linearGradient id="wine" x2=".95" y2="1"><stop stop-color="#853c48"/><stop offset="1" stop-color="#5a2834"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="20" stdDeviation="18" flood-color="#3c3028" flood-opacity=".2"/></filter>
+    <pattern id="grain" width="100" height="100" patternUnits="userSpaceOnUse"><circle cx="7" cy="8" r=".7" fill="#6c5a48" opacity=".12"/><circle cx="62" cy="32" r=".65" fill="#6c5a48" opacity=".11"/><circle cx="39" cy="79" r=".65" fill="#6c5a48" opacity=".1"/></pattern>
+  </defs>
+  <rect x="20" y="15" width="860" height="785" rx="3" fill="url(#bg)"/>
+  <rect x="20" y="15" width="860" height="785" fill="url(#grain)" opacity=".55"/>
+  <path d="M66 681C161 644 200 588 221 515M75 686c63-46 74-110 66-162m-17 108c-46-4-70 9-91 35m106-69c-40-18-60-43-67-78m121 0c-27-48-25-91-7-125m-2 129c46-29 63-65 61-103m-46 63c-33-4-55 2-75 21" fill="none" stroke="#71806a" stroke-width="2.6" stroke-linecap="round"/>
+  <g fill="#88917c">
+    <path d="M136 630c-35-9-53-27-62-49 32 0 52 15 62 49Zm18-36c-30-13-41-34-43-57 28 5 44 24 43 57Zm-46 20c-32 4-55-6-72-23 27-9 51-2 72 23Zm102-101c-3-33 8-55 27-72 7 28-2 51-27 72Zm-41 22c-30-14-42-34-44-57 28 6 44 24 44 57Z"/>
+  </g>
+  <g filter="url(#shadow)" transform="rotate(-9 413 392)">
+    <rect x="165" y="190" width="472" height="555" rx="2" fill="url(#wine)"/>
+    <path d="M165 190h472v555H165z" fill="none" stroke="#d6b98a" stroke-width="1.2"/>
+    <path d="M188 213h426v509H188z" fill="none" stroke="#d6b98a" stroke-width=".7" opacity=".75"/>
+    <circle cx="401" cy="320" r="52" fill="none" stroke="#d7bd94" stroke-width="1"/>
+    <path d="M401 277v87m-23-44h46m-39-29 32 58m0-58-32 58" stroke="#d7bd94" stroke-width=".7" opacity=".8"/>
+    <text x="401" y="426" text-anchor="middle" fill="#e8d8bc" font-family="Georgia,serif" font-size="33" letter-spacing="3">Mali znak</text>
+    <path d="M325 451h152" stroke="#d7bd94" stroke-width=".8"/>
+    <text x="401" y="490" text-anchor="middle" fill="#f3e8d5" font-family="Georgia,serif" font-size="17" font-style="italic">sa pažnjom, na papiru</text>
+    <text x="401" y="674" text-anchor="middle" fill="#d9c6a5" font-family="Arial,sans-serif" font-size="8" letter-spacing="3">PAPIR • DIZAJN • ŠTAMPA</text>
+  </g>
+  <g filter="url(#shadow)" transform="rotate(10 659 511)">
+    <rect x="534" y="341" width="246" height="337" rx="2" fill="url(#paper)"/>
+    <path d="M554 362h206v295H554z" fill="none" stroke="#b48b62" stroke-width=".8"/>
+    <path d="M657 407c-19-24-47 1 0 36 47-35 19-60 0-36Z" fill="none" stroke="#a5765d" stroke-width="1.3"/>
+    <text x="657" y="493" text-anchor="middle" fill="#673342" font-family="Georgia,serif" font-size="22" font-style="italic">Dobro došli</text>
+    <text x="657" y="521" text-anchor="middle" fill="#85796c" font-family="Georgia,serif" font-size="10" letter-spacing="1.5">U JEDNU LEPU PRIČU</text>
+    <path d="M611 544h92" stroke="#bda981" stroke-width=".8"/>
+    <text x="657" y="572" text-anchor="middle" fill="#75695d" font-family="Georgia,serif" font-size="10">sa ljubavlju, za sve vas</text>
+    <circle cx="657" cy="616" r="3" fill="#a6755f"/>
+  </g>
+  <g fill="#bd9465">
+    <circle cx="758" cy="155" r="4"/><circle cx="783" cy="171" r="2"/><circle cx="746" cy="182" r="2.4"/>
+  </g>
+</svg>

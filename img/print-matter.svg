@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 860" role="img" aria-labelledby="title desc">
+  <title id="title">Štampani materijal</title>
+  <desc id="desc">Ilustracija postera, kataloga i papira u toplim terakota i krem nijansama.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#d8c6ae"/><stop offset="1" stop-color="#c1aa8d"/></linearGradient>
+    <linearGradient id="paper" x2="1" y2="1"><stop stop-color="#fffdf7"/><stop offset="1" stop-color="#eee4d6"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="19" stdDeviation="17" flood-color="#49382a" flood-opacity=".23"/></filter>
+  </defs>
+  <rect width="800" height="860" fill="url(#bg)"/>
+  <path d="M0 677c200-85 540-41 800-173v356H0z" fill="#a78b6e" opacity=".27"/>
+  <g filter="url(#shadow)" transform="rotate(-8 359 445)">
+    <rect x="147" y="159" width="424" height="556" fill="url(#paper)"/>
+    <rect x="172" y="184" width="374" height="506" fill="#a5533e"/>
+    <circle cx="359" cy="331" r="111" fill="#e0ba8a"/>
+    <path d="M282 351c49-86 94-94 153-40m-143 66c43-72 103-71 151-33" fill="none" stroke="#a5533e" stroke-width="4" stroke-linecap="round"/>
+    <path d="M274 398c55-33 109-25 168 1m-158 16c43-16 84-10 126 7" fill="none" stroke="#a5533e" stroke-width="2.5" opacity=".8"/>
+    <text x="359" y="513" text-anchor="middle" fill="#fff5e4" font-family="Georgia,serif" font-size="31" letter-spacing="2">PAPIR</text>
+    <text x="359" y="548" text-anchor="middle" fill="#fff0db" font-family="Georgia,serif" font-size="17" font-style="italic">koji ostavlja trag</text>
+    <path d="M295 574h128" stroke="#e5c692" stroke-width="1"/>
+    <text x="359" y="609" text-anchor="middle" fill="#f7e5cc" font-family="Arial,sans-serif" font-size="8" letter-spacing="2">IDEJE U DOBROM DRUŠTVU</text>
+  </g>
+  <g filter="url(#shadow)" transform="rotate(9 641 565)">
+    <rect x="526" y="413" width="205" height="298" fill="#f4ecdf"/>
+    <path d="M526 413h205v298H526z" fill="none" stroke="#a78d6a" stroke-width="1"/>
+    <circle cx="628" cy="499" r="39" fill="#73806a"/>
+    <text x="628" y="511" text-anchor="middle" fill="#f5eee3" font-family="Georgia,serif" font-size="24" font-style="italic">m.</text>
+    <path d="M566 560h124m-124 11h98m-98 11h111" stroke="#a99b88" stroke-width="1.5"/>
+    <path d="M566 623h76" stroke="#a5533e" stroke-width="3"/>
+  </g>
+  <path d="M694 116c-15 33-16 55-3 81m0-59c17-17 34-22 55-20m-54 53c-18-5-34-2-49 8" fill="none" stroke="#67745e" stroke-width="2" stroke-linecap="round"/>
+</svg>
